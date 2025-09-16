@@ -14,10 +14,10 @@ WAIT_TIMEOUT = 25
 MAX_RETRIES = 3 # How many times to retry a failed article
 
 # --- Rotating Proxy Service Credentials ---
-PROXY_HOST = "p.webshare.io"
+PROXY_HOST = ""
 PROXY_PORT = "80"
-PROXY_USER = "jphsuydv-rotate"
-PROXY_PASS = "2t7lijya16wu"
+PROXY_USER = ""
+PROXY_PASS = ""
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 driver = None
